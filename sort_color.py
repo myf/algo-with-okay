@@ -6,11 +6,6 @@ class Solution:
 
         i = 0
         while i < len(nums):
-            print(i, nums, nums[i])
-            if len(nums) == 1:
-                break
-            if len(set(nums)) == 1:
-                break
             if nums[i] > 1:
                 if set(nums[i:]) == {2}:
                     break
